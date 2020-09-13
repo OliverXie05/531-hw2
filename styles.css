@@ -1,0 +1,55 @@
+body {
+    background-color:powderblue;
+}
+.tables{
+    border: 5px dotted white;
+    border-collapse: collapse; 
+    border-spacing: 25px; 
+    color: black;
+}
+
+.tables td{
+    border: 5px dotted white;
+    padding: 15px;
+}
+input[type="button"]{
+	background-color: #555555;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 12px;
+}
+input[type="button"]:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+.cell1{
+  background-color: lightgreen;
+
+}
+.cell2{
+	  background-color: lightblue;
+
+}
+.cell3{
+	  background-color: #b399ff;
+
+}
+.link{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+
+.link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+font1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+span {
+    margin-left: 27em;
+}

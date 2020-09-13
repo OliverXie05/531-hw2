@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Yunfei Xie">
+<title>Profile Page</title>
+<script src="profile.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="center">
+	<div>
+	<center>
+	<h3 class = 'link'><a href="main.html">Main Page</a></h3>
+	</center>
+	</div>
+	<h1>Acount Information</h1>
+	<p><span>Current:</p></span>
+	<table class = 'tables'>
+		<tr>
+		<td>Display Name:</td>
+		<td><input type='text' name = 'display_name' id = 'display_name'></td>
+		<td id="harddname">Yunfei Xie</td>
+		<td id = 'dnamechange' ></td>
+		</tr>
+		<tr>
+		<td>Email Address:</td>
+		<td><input type='email' name = 'email' id = 'email'></td>
+		<td id="hardemail">yx55@rice.edu</td>
+		<td id = 'emailchange' ></td>
+		</tr>
+		<tr>
+		<td>Phone number:</td>
+		<td><input type='tel' name = 'phone_number'  id = 'phone_number'></td>
+		<td id="hardphone">123-123-1234</td>
+		<td id = 'phonechange' ></td>
+		</tr>
+		<tr>
+		<td>Zipcode:</td>
+		<td><input type='text' name = 'zipcode'  id = 'zipcode'></td>
+		<td id="hardzip">12345</td>
+		<td id = 'zipchange' ></td>
+		</tr>
+		<tr>
+		<td>Password:</td>
+		<td><input type='password' name = 'password' id = 'password'></td>
+		<td id="hardpw">******</td>
+		<td id = 'pwchange' ></td>
+		</tr>
+		<tr>
+		<td>Password Confirmation:</td>
+		<td><input type='password' name = 'cpassword' id = 'cpassword'></td>
+		<td id="hardcpw">******</td>
+		<td id = 'cpwchange' ></td>
+		</tr>
+		<tr></tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="Update" id="btnUpdate" onclick="OnUpdate()">
+			</td>
+			<td></td>
+			<td></td>
+			</tr>
+	</table>
+</body>
